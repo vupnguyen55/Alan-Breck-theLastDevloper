@@ -1,0 +1,19 @@
+.boatIsland {
+    position: absolute;
+    top: 625px;
+    left: 895px;
+    background-image: url('../HTML_NPC/Sprites/Boat.png');
+    background-position: center;
+    width: 64px;
+    height: 60px;
+}
+
+.Son {
+    position: absolute;
+    top: 160px;
+    left: 640px;
+    background-Image: url('../HTML_NPC/Sprites/Son.png');
+    background-Position: 0px 0px;
+    width: 40px;
+    height: 40px;
+}

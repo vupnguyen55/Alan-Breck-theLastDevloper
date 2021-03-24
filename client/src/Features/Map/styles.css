@@ -1,0 +1,23 @@
+.tile {
+    display: inline-flex;
+    background-color: transparent;
+}
+
+.row {
+    margin-left: 0px;
+}
+
+.grass {
+    background-color: transparent;
+}
+
+.rock {
+    /* background-image: url('/Tiles/Rocks.png'); */
+}
+
+
+
+
+.actionTile {
+    background-position: 0px 120px;
+}

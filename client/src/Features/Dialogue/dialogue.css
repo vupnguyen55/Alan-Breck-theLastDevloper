@@ -1,0 +1,23 @@
+#avatar{
+    bottom: 0%;
+    right:.5%;
+    position: absolute;
+  }
+
+  .nameTag{
+      background:rgba(95,158,160,0.7);
+      font-weight:bolder;
+      padding:5px;
+  }
+
+  .hideToggle{
+    display:none;
+  }
+
+  .leaveButton{
+    position: absolute;
+    margin:5px;
+    bottom:1%;
+    right:1%;
+    font-size:20px;
+  }

@@ -1,0 +1,45 @@
+{
+  "name": "theLastDeveloper",
+  "version": "1.0.0",
+  "description": "Interactive RPG Game to learn basics of coding",
+  "main": "server.js",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
+    "axios": "^0.21.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "history": "^4.9.0",
+    "if-env": "^1.0.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.16",
+    "path": "^0.12.7",
+    "react-modal": "^3.8.1",
+    "react-router-redux": "^4.0.8"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node seeds/seed-db.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbaek3/theLastDeveloper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbaek3/theLastDeveloper/issues"
+  },
+  "homepage": "https://github.com/gbaek3/theLastDeveloper#readme"
+}
